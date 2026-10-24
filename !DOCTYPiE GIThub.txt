@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Victoria's Journal</title>
+    <style>
+        /* Basic page background */
+        body {
+            background-color: lightgray;
+        }
+
+        /* Main container box */
+        .container {
+            width: 800px;
+            background-color: white;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        /* 1. Header Section */
+        .header {
+            background-color: lightblue;
+            text-align: right;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            color: teal;
+            margin: 0;
+        }
+
+        .header p {
+            color: gray;
+            margin: 5px 0 0 0;
+        }
+
+        /* 2. Left Sidebar (Friends Box) */
+        .sidebar {
+            float: left;
+            width: 200px;
+            background-color: teal;
+            border: 2px solid black;
+            padding: 10px;
+            color: white;
+        }
+
+        .sidebar h2 {
+            margin-top: 0;
+        }
+
+        /* 3. Main Content Area */
+        .main-content {
+            float: right;
+            width: 550px;
+        }
+
+        /* 4. Individual Post Boxes */
+        .post {
+            border: 2px solid lightblue;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: white;
+        }
+
+        .post h3 {
+            color: teal;
+            border-bottom: 2px dashed lightblue;
+            margin-top: 0;
+        }
+
+        /* Image styling */
+        .post-img {
+            float: right;
+            width: 100px;
+            height: 100px;
+            margin-left: 10px;
+        }
+
+        .post p {
+            color: black;
+        }
+
+        /* Clear float */
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+   
+        <div class="header">
+            <h1>Victoria's Journal</h1>
+            <p>So fresh and so clean</p>
+        </div>
+
+      
+        <div class="sidebar">
+            <h2>Friends</h2>
+            <ul>
+                <li>390 baddies</li>
+                <li>big wall</li>
+ <li>canon the labrarian</li>
+            </ul>
+        </div>
+
+        
+        <div class="main-content">
+            
+            
+            <div class="post">
+                <img src="https://t3.ftcdn.net/jpg/22/05/21/34/360_F_2205213471_7kzG3ST4mAkHC5zV42ZLPrNtItBZPopZ.jpg" class="post-img">
+                <h3>04/09/08: Spatulas</h3>
+                <p>Yesterday, I went to the store and got some much needed spatulas! (what better way to say I love myself than to buy myself a spatula?)</p>
+            </div>
+
+            <div class="post">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/056/368/801/small/irresistible-chocolate-chip-cookies-on-rustic-wooden-table-photo.jpeg" class="post-img">
+                <h3>04/08/08: Cookie Cupcakes</h3>
+                <p>My favorite cartoon character is cookie and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds.</p>
+            </div>
+
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+
+</body>
+</html>
